@@ -1,0 +1,20 @@
+[
+  {
+  "response_type": "Greeting",
+  "user_input": ["hello", "hi"],
+  "bot_response": "hello client",
+  "required_words":[]
+  },
+  {
+  "response_type": "open_hours",
+  "user_input": ["when", "do", "you", "open"],
+  "bot_response": " Monday-friday\n      9:00 AM-7:00 PM",
+  "required_words":["open"]
+  },
+  {
+  "response_type": "close_hours",
+  "user_input": ["when", "do", "you", "close"],
+  "bot_response": " Monday-friday\n      9:00 AM-7:00 PM",
+  "required_words":["close"]
+  }
+]
